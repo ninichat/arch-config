@@ -1,0 +1,7 @@
+[Unit]
+Description=Change wallpaper to a random one
+
+[Service]
+Type=oneshot
+Environment=DISPLAY=:0.0
+ExecStart=/home/corentin/.fehbg
