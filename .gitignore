@@ -1,0 +1,17 @@
+# Compiled #
+*.o
+
+# Tmp #
+*.swp
+
+# Packages #
+*.7z
+*.gz
+*.iso 
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Databases
+*.sqlite

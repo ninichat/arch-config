@@ -1,0 +1,47 @@
+[user]
+	name = Corentin Giroud-Argoud
+	email = giroud_c@epita.fr
+[alias]
+  a = add --all
+  ai = add -i
+  ba = branch -a
+  bd = branch -d
+  ca = commid --amend
+  cl = clone
+  cm = commit
+  co = checkout
+  d = diff
+  f = fetch
+  ir = rebase -i
+  l = log --graph --oneline --all
+  ra = rebase --abort
+  rc = rebase --continue
+  sc = stash clear
+  sd = stash drop
+  sp = stash pop
+  st = status
+  subinit = submodule update --init --recursive
+[pull]
+	rebase = true
+[core]
+  editor = vim
+[web]
+  browser = firefox
+[color]
+  ui = auto
+[color "branch"]
+	current = yellow bold
+	local = green bold
+	remote = cyan bold
+[color "diff"]
+	meta = yellow bold
+	frag = magenta bold
+	old = red bold
+	new = green bold
+	whitespace = red reverse
+[color "status"]
+	added = green bold
+	changed = yellow bold
+  untracked = red bold
+[diff]
+  tool = vimdiff
