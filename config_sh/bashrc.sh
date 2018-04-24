@@ -1,7 +1,7 @@
 #!/bin/sh
 
 git clone --depth=1 https://github.com/jaivardhankapoor/bestbash ~/.bash/
-ln -s ~/.bash/init ~/.bashrc
+ln -sf ~/.bash/init ~/.bashrc
 
 # Custom aliases
 touch ~/.bash/custom_alias
