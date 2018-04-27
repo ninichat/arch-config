@@ -1,13 +1,21 @@
 #!/bin/sh
 
-git clone --depth=1 https://github.com/jaivardhankapoor/bestbash ~/.bash/
+LOCAL_REPO="~/.bash"
+
+if [ ! -d "$LOCAL_REPO" ]; then
+  git clone --depth=1 https://github.com/jaivardhankapoor/bestbash "$LOCAL_REPO"
+else
+  cd "$LOCAL_REPO"
+  git stash
+  git pull --depth=1
+  git stash pop
+  cd -
+fi
 ln -sf ~/.bash/init ~/.bashrc
 
+SRC_PATH=$(dirname "$0")
+
 # Custom aliases
-touch ~/.bash/custom_alias
-echo 'alias v='vim'' > ~/.bash/custom_alias
-echo 'if [ -f ~/.git-completion.bash ]; then' >> ~/.bash/custom_alias
-echo '  __git_complete g __git_main' >> ~/.bash/custom_alias
-echo 'fi' >> ~/.bash/custom_alias
-echo "alias g='git'" >> ~/.bash/custom_alias
+cp "${SRC_PATH}/custom_alias" ~/.bash/custom_alias
+
 echo "source ~/.bash/custom_alias" >> ~/.bashrc

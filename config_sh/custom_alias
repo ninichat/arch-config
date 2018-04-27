@@ -1,0 +1,19 @@
+# Convenience aliases
+alias v=vim
+if [ -f ~/.git-completion.bash ]; then
+  __git_complete g __git_main
+fi
+alias g='git'
+
+# Json pretty printing
+prettyjson_s() {
+    echo "$1" | python -m json.tool
+}
+
+prettyjson_f() {
+    python -m json.tool "$1"
+}
+
+prettyjson_w() {
+    curl "$1" | python -m json.tool
+}
