@@ -1,6 +1,6 @@
 #!/bin/sh
 
-LOCAL_REPO="~/.bash"
+LOCAL_REPO="${HOME}/.bash"
 
 if [ ! -d "$LOCAL_REPO" ]; then
   git clone --depth=1 https://github.com/jaivardhankapoor/bestbash "$LOCAL_REPO"
@@ -11,11 +11,11 @@ else
   git stash pop
   cd -
 fi
-ln -sf ~/.bash/init ~/.bashrc
+ln -sf "${LOCAL_REPO}/init" "${HOME}/.bashrc"
 
 SRC_PATH=$(dirname "$0")
 
 # Custom aliases
-cp "${SRC_PATH}/custom_alias" ~/.bash/custom_alias
+cp "${SRC_PATH}/custom_alias" "${LOCAL_REPO}/custom_alias"
 
-echo "source ~/.bash/custom_alias" >> ~/.bashrc
+echo "source ${LOCAL_REPO}/custom_alias" >> "${HOME}/.bashrc"
