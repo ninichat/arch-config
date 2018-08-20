@@ -2,6 +2,8 @@
 
 My configs for my arch distro.
 
+Run main.sh to install everything (not tested, lol)
+
 Credits to (inspiration from)
 -----------------------------
 bashrc: https://github.com/jaivardhankapoor/bestbash
