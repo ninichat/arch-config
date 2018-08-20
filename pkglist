@@ -1,6 +1,7 @@
 automake
 base
 base-devel
+bash-complete
 curl
 dmenu
 evince
