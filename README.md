@@ -2,10 +2,7 @@
 
 My configs for my arch distro.
 
-
-
-
-Credits to
-----------
+Credits to (inspiration from)
+-----------------------------
 bashrc: https://github.com/jaivardhankapoor/bestbash
 vimrc: https://github.com/amix/vimrc
