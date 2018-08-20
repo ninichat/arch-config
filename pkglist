@@ -12,6 +12,7 @@ git
 mesa
 openssh
 openssh
+pass
 pkgfile
 postgresql
 powertop
