@@ -10,12 +10,10 @@ feh
 ffmpeg
 firefox
 git
-jdk8-openjdk
-jre8-openjdk
-qbittorrent
 mesa
 openssh
 openssh
+pkgfile
 postgresql
 powertop
 pulseaudio
@@ -23,6 +21,8 @@ pulseaudio-alsa
 python-pip
 python2
 python3
+qbittorrent
+qutebrowser
 scrot
 texlive-most
 thunderbird
@@ -32,6 +32,6 @@ ttf-inconsolata
 vim
 virtualbox linux-headers
 vlc
+w3m
 xorg
 xterm
-lynx
