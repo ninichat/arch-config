@@ -1,6 +1,4 @@
 automake
-base
-base-devel
 bash-complete
 colordiff
 curl
