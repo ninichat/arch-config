@@ -1,3 +1,4 @@
+atool
 automake
 bash-complete
 colordiff
@@ -27,6 +28,8 @@ thunderbird
 traceroute
 tree
 ttf-inconsolata
+unrar
+unzip
 vim
 virtualbox linux-headers
 vlc
