@@ -4,3 +4,4 @@
 
 BASEDIR=$(dirname "$0")
 cp -r "$BASEDIR/custom" "$HOME/.oh-my-zsh"
+cp "$BASEDIR/.zshrc" "$HOME/.zshrc"
