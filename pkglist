@@ -18,6 +18,7 @@ pass
 pkgfile
 postgresql
 powertop
+powerline-fonts
 pulseaudio
 pulseaudio-alsa
 python-pip
