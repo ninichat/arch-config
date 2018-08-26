@@ -4,7 +4,11 @@
 ./config_sh/vimrc.sh
 ./shells.sh
 
-cp .gitconfig ~/
+# Git config
+cp .gitconfig "$HOME"
+
+# .config files
+cp -r .config "$HOME"
 
 # Install packages
 sudo pacman -Sy - < pkglist
