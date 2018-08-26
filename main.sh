@@ -2,7 +2,7 @@
 
 # Install rcs
 ./config_sh/vimrc.sh
-./config_sh/bashrc.sh
+./shells.sh
 
 cp .gitconfig ~/
 

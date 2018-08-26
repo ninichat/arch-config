@@ -1,5 +1,6 @@
 atool
 automake
+bash
 bash-complete
 colordiff
 curl
@@ -8,6 +9,7 @@ evince
 feh
 ffmpeg
 firefox
+fish
 git
 mesa
 openssh
@@ -37,3 +39,4 @@ vlc
 w3m
 xorg
 xterm
+zsh
