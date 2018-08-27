@@ -1,7 +1,7 @@
 atool
 automake
 bash
-bash-complete
+bash-completion
 colordiff
 curl
 dmenu
@@ -11,14 +11,16 @@ ffmpeg
 firefox
 fish
 git
+htop
+linux-headers
 mesa
 openssh
 openssh
 pass
 pkgfile
 postgresql
-powertop
 powerline-fonts
+powertop
 pulseaudio
 pulseaudio-alsa
 python-pip
@@ -35,9 +37,10 @@ ttf-inconsolata
 unrar
 unzip
 vim
-virtualbox linux-headers
+virtualbox
 vlc
 w3m
+wget
 xorg
 xterm
 zsh

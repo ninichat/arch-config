@@ -1,3 +1,3 @@
 #!/bin/sh
 
-pkgfile --update
+sudo pkgfile --update

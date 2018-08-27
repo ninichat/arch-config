@@ -1,8 +1,7 @@
 #!/bin/sh
 
-# Install rcs
-./config_sh/vimrc.sh
-./shells.sh
+# Install vimrc
+./config_rc/vimrc.sh
 
 # Git config
 cp .gitconfig "$HOME"
@@ -11,9 +10,15 @@ cp .gitconfig "$HOME"
 cp -r .config "$HOME"
 
 # Install packages
-sudo pacman -Sy - < pkglist
-./aurman.sh
-sudo aurman -Sy - < aur-pkglist
+sudo pacman -S --needed - < pkglist
 
-#
+# Install fish / zsh / bash config
+./shells.sh
+
+# Post scripts
 ./post.sh
+
+# This will probably fail, so putting that at the end
+# Import keys at your leasure
+./aurman.sh
+aurman -S --needed $(cat aur-pkglist)
