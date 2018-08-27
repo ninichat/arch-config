@@ -3,6 +3,7 @@ automake
 bash
 bash-completion
 colordiff
+compton
 curl
 dmenu
 evince
@@ -12,6 +13,7 @@ firefox
 fish
 git
 htop
+i3
 linux-headers
 mesa
 openssh
@@ -32,6 +34,7 @@ scrot
 texlive-most
 thunderbird
 traceroute
+transset-df
 tree
 ttf-inconsolata
 unrar

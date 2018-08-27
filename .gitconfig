@@ -22,6 +22,7 @@
     sp = stash pop
     st = status
     subinit = submodule update --init --recursive
+    subupdate = submodule update --init --recursive --remote
 [pull]
     rebase = true
 [core]
