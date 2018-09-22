@@ -15,14 +15,12 @@ git
 htop
 i3
 linux-headers
+net-tools
 mesa
-openssh
 openssh
 pass
 pkgfile
-postgresql
 powerline-fonts
-powertop
 pulseaudio
 pulseaudio-alsa
 python-pip
