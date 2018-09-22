@@ -8,6 +8,8 @@ cp .gitconfig "$HOME"
 
 # .config files
 cp -r .config "$HOME"
+# Mod + p to take a screenshot in this $HOME/scrot
+mkdir "$HOME/scrot"
 
 # Install packages
 sudo pacman -S --needed - < pkglist
