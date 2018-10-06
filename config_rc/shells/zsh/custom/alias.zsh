@@ -8,6 +8,11 @@ alias mkdir='mkdir -p -v'
 alias more='less'                   # more doesn't have vim shortcuts
 alias ping='ping -c 3'
 
+# Gem path
+PATH="$PATH:$(ruby -e 'print Gem.user_dir')/bin"
+# Color path (gem dependant)
+alias ls='colorls --sf'
+
 # With password manager, disable logging the password in ram
 alias qutebrowser='qutebrowser --loglines 0'
 

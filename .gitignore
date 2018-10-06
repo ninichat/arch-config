@@ -7,7 +7,7 @@
 # Packages #
 *.7z
 *.gz
-*.iso 
+*.iso
 *.jar
 *.rar
 *.tar
@@ -15,3 +15,5 @@
 
 # Databases
 *.sqlite
+
+colorls

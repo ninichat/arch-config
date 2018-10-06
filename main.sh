@@ -6,16 +6,24 @@
 # Git config
 cp .gitconfig "$HOME"
 
-# .config files
-cp -r .config "$HOME"
 # Mod + p to take a screenshot in this $HOME/scrot
 mkdir "$HOME/scrot"
+
+# dotfiles
+for i in .*; do
+    if [ "$i" != ".git" ]; then
+        cp -r "$i" "$HOME/$i"
+    fi
+done
 
 # Install packages
 sudo pacman -S --needed - < pkglist
 
 # Install fish / zsh / bash config
 ./shells.sh
+
+# Font
+./fonts.sh
 
 # Post scripts
 ./post.sh

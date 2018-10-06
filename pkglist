@@ -15,12 +15,11 @@ git
 htop
 i3
 linux-headers
-net-tools
 mesa
+net-tools
 openssh
 pass
 pkgfile
-powerline-fonts
 pulseaudio
 pulseaudio-alsa
 python-pip
@@ -28,9 +27,11 @@ python2
 python3
 qbittorrent
 qutebrowser
+ruby
 scrot
 texlive-most
 thunderbird
+tldr
 traceroute
 transset-df
 tree

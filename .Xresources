@@ -1,0 +1,21 @@
+XTerm.termName: xterm-256color
+
+! Font rendering
+Xft.dpi: 96
+Xft.antialias: true
+Xft.hinting: true
+Xft.rgba: rgb
+Xft.autohint: false
+Xft.hintstyle: hintslight
+Xft.lcdfilter: lcddefault
+
+! Font choice
+xterm*faceName: Hack Nerd Font
+xterm*faceSize: 8
+
+! grounds
+*foreground: rgb:b2/b2/b2
+*background: rgb:08/08/08
+
+! Maximum number of lines
+XTerm.vt100.saveLines: 4096
