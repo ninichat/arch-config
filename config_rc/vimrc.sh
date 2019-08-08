@@ -3,7 +3,7 @@
 LOCAL_REPO="${HOME}/.vim_runtime"
 
 if [ ! -d "$LOCAL_REPO" ]; then
-  git clone git@github.com:ninichat/vimrc.git "$LOCAL_REPO"
+  git clone https://github.com/ninichat/vimrc "$LOCAL_REPO"
 else
   cd "$LOCAL_REPO"
   git pull

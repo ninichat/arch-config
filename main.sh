@@ -1,5 +1,8 @@
 #!/bin/sh
 
+# Install packages
+sudo pacman -S --needed - < pkglist
+
 # Install vimrc
 ./config_rc/vimrc.sh
 
@@ -16,8 +19,6 @@ for i in .*; do
     fi
 done
 
-# Install packages
-sudo pacman -S --needed - < pkglist
 
 # Install fish / zsh / bash config
 ./shells.sh
@@ -30,5 +31,5 @@ sudo pacman -S --needed - < pkglist
 
 # This will probably fail, so putting that at the end
 # Import keys at your leasure
-./aurman.sh
+./yay.sh
 aurman -S --needed $(cat aur-pkglist)
