@@ -171,5 +171,4 @@ bar {
         status_command i3status
 }
 
-exec --no-startup-id compton -cCGf -b --vsync opengl
 exec --no-startup-id redshift
