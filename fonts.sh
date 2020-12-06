@@ -5,11 +5,3 @@ wget -O "$FNAME" "$URL"
 mkdir -p ~/.local/share/fonts
 mv "$FNAME" ~/.local/share/fonts/
 fc-cache -f -v
-
-if [ ! -d "colorls" ]; then
-    git clone https://github.com/athityakumar/colorls.git
-fi
-cd colorls
-git pull
-gem install colorls
-cd ..
