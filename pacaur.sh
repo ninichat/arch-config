@@ -1,7 +1,6 @@
 #!/bin/sh
 
-git clone https://aur.archlinux.org/yay.git
-cd yay
+git clone https://aur.archlinux.org/pacaur.git
 makepkg -fcsi
 cd -
-rm -rf yay
+rm -rf pacaur

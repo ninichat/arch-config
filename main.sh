@@ -31,5 +31,5 @@ done
 
 # This will probably fail, so putting that at the end
 # Import keys at your leasure
-./yay.sh
-aurman -S --needed $(cat aur-pkglist)
+./pacaur.sh
+pacaur -S --needed $(cat aur-pkglist)
